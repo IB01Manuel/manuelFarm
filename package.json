@@ -1,0 +1,18 @@
+{
+  "name": "manuel-farm",
+  "version": "1.0.0",
+  "description": "building a farming web app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ibibo Manuel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
