@@ -11,6 +11,7 @@ const db = new pg.Client({
     database: "manuelFarm",
     password: "chameleON",
     port: 5432,
+    DATABASE_URL: "postgresql://myuser:Y5Qp3KR9YQu9QKdaYHlybRnQLJMUQCbr@dpg-cv3g1cqn91rc739fg5og-a/mydatabase_uerq",
 });
 
 db.connect();
