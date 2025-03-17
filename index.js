@@ -1,19 +1,13 @@
 import express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
+import dbConfig from "./db-config.js";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-const db = new pg.Client({
-    user: "postgres",
-    host: "localhost",
-    database: "manuelFarm",
-    password: "chameleON",
-    port: 5432,
-    DATABASE_URL: "postgresql://myuser:Y5Qp3KR9YQu9QKdaYHlybRnQLJMUQCbr@dpg-cv3g1cqn91rc739fg5og-a/mydatabase_uerq",
-});
-
+const db = new pg.Client(dbConfig);
+ 
 db.connect();
 
 // Middleware
