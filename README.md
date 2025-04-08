@@ -48,7 +48,7 @@ by providing a convenient marketplace for farm products and livestock.
 - PostgreSQL (v12 or higher)
 
 ### Installation
-
+```bash
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/manuel-farms.git
@@ -83,18 +83,10 @@ npm start
 
 6. Open in your browser:
 Visit http://localhost:3000
-
-### Steps
-1. Clone the repo
-2. Install dependencies
-3. Set up environment variables
-4. Run the app
-5. Open in browser
-   Visit http://localhost:3000
+```
 
 ## 🗂️ Project Structure
-
-Copy
+```text
 manuel-farms/
 ├── public/            # Static assets
 │   ├── css/
@@ -105,6 +97,7 @@ manuel-farms/
 ├── db-config.js          # Database models
 ├── index.js             # Main application file | Business logic | Application routes
 └── package.json
+```
 
 Live Demo
 View Live Demo (Add your live URL here when available)
