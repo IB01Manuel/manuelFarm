@@ -1,18 +1,23 @@
 # Manuel Farms - Farm-to-Customer E-Commerce Platform
 
 ## About The Project
-
 Manuel Farms is a web-based application designed to bridge the gap between farmers and customers
 by providing a convenient marketplace for farm products and livestock.
 
-**Key V alue Propositions:**
+## 🚀 Live Demo 
+[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://manuelfarms-demo.netlify.app)
+
+[![App Screenshot](./public/images/screenshot.png)](https://manuelfarms-demo.netlify.app)
+
+➡️ **Try it now:** [https://manuelfarms-demo.netlify.app](https://manuelfarms-demo.netlify.app)
+
+**Key Value Propositions:**
 - 🛒 One-stop shop for hard-to-find farm products and livestock
 - 🏡 Home delivery of bulk agricultural products
 - ⏱️ Time-saving solution for busy customers
 - 👨‍🌾 Direct connection between farmers and consumers
 
 ### Built With
-
 **Backend:**
 - Node.js
 - Express.js
@@ -26,7 +31,6 @@ by providing a convenient marketplace for farm products and livestock.
 - PostgreSQL
 
 ## Features
-
 **Current Features:**
 - Product search and discovery
 - Dynamic product display
@@ -42,28 +46,25 @@ by providing a convenient marketplace for farm products and livestock.
 ## Getting Started
 
 ### Prerequisites
-
 - Node.js (v14 or higher)
 - npm (v6 or higher)
 - PostgreSQL (v12 or higher)
 
 ### Installation
-```bash
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/manuel-farms.git
    cd manuel-farms
 ```
 
-```bash
 2. Install dependencies:
+```bash
 npm install
 ```
 
-```text
 3. Set up environment variables:
-Create a .env file in the root directory with the following:
-
+Create a `.env` file in the root directory with the following:
+```env
 DB_HOST=your_database_host
 DB_USER=your_database_username
 DB_PASSWORD=your_database_password
@@ -71,22 +72,21 @@ DB_NAME=your_database_name
 DB_PORT=your_database_port
 ```
 
-```bash
 4. Initialize the database:
+```bash
 npm run db:setup
 ```
 
-```bash
 5. Run the application:
+```bash
 npm start
 ```
 
-```text
 6. Open in your browser:
-Visit http://localhost:3000
-```
+Visit `http://localhost:3000`
 
-## 🗂️ Project Structure
+## Project Structure
+
 ```text
 manuel-farms/
 ├── public/            # Static assets
@@ -100,8 +100,5 @@ manuel-farms/
 └── package.json
 ```
 
-Live Demo
-View Live Demo (Add your live URL here when available)
-
-License
-Distributed under the MIT License. See LICENSE for more information.
+## License
+MIT License. See [LICENSE] (LICENSE) for full text
