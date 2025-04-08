@@ -53,34 +53,35 @@ by providing a convenient marketplace for farm products and livestock.
    ```bash
    git clone https://github.com/yourusername/manuel-farms.git
    cd manuel-farms
+```
+
+```bash
 2. Install dependencies:
-
-bash
-Copy
 npm install
+```
 
+```text
 3. Set up environment variables:
 Create a .env file in the root directory with the following:
 
-Copy
 DB_HOST=your_database_host
 DB_USER=your_database_username
 DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
 DB_PORT=your_database_port
+```
 
+```bash
 4. Initialize the database:
-
-bash
-Copy
 npm run db:setup
+```
 
+```bash
 5. Run the application:
-
-bash
-Copy
 npm start
+```
 
+```text
 6. Open in your browser:
 Visit http://localhost:3000
 ```
