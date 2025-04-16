@@ -9,7 +9,7 @@ by providing a convenient marketplace for farm products and livestock.
 
 [![App Screenshot](./public/images/screenshot.png)](https://manuelfarms-demo.netlify.app)
 
-➡️ **Try it now:** [https://manuelfarms-demo.netlify.app](https://manuelfarms-demo.netlify.app)
+➡️ **Try it now:** [https://manuelfarms-demo.netlify.app](https://manuelfarm-project.onrender.com)
 
 **Key Value Propositions:**
 - 🛒 One-stop shop for hard-to-find farm products and livestock
