@@ -52,7 +52,7 @@ by providing a convenient marketplace for farm products and livestock.
 
 ### Installation
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/yourusername/manuel-farms.git
    cd manuel-farms
 ```
