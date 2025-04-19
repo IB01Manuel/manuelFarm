@@ -7,7 +7,7 @@ by providing a convenient marketplace for farm products and livestock.
 ## 🚀 Live Demo 
 [![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://github.com/IB01Manuel/manuelFarm/blob/ef7c482d7830ef9087e341b74695eb36cef3e908/Capture0.png)
 
-[![App Screenshot](https://github.com/IB01Manuel/manuelFarm/blob/888b3c12c0333cf32be5a1ca42604cfb14a03443/Capture0%20-%20Copy%20(5).png)](https://github.com/IB01Manuel/manuelFarm/blob/ef7c482d7830ef9087e341b74695eb36cef3e908/Capture0.png)
+[![App Screenshot](https://github.com/IB01Manuel/manuelFarm/blob/888b3c12c0333cf32be5a1ca42604cfb14a03443/Capture0%20-%20Copy%20(5).png)]
 
 ➡️ **Try it now:** [https://manuelfarm-project.onrender.com](https://manuelfarm-project.onrender.com)
 
