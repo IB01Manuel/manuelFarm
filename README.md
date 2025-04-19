@@ -5,7 +5,7 @@ Manuel Farms is a web-based application designed to bridge the gap between farme
 by providing a convenient marketplace for farm products and livestock.
 
 ## 🚀 Live Demo 
-[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://manuelfarms-demo.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://github.com/IB01Manuel/manuelFarm/blob/ef7c482d7830ef9087e341b74695eb36cef3e908/Capture0.png)
 
 [![App Screenshot](./public/images/screenshot.png)](https://manuelfarms-demo.netlify.app)
 
