@@ -1,21 +1,25 @@
 # Manuel Farms - Farm-to-Customer E-Commerce Platform
 
+
 ## About The Project
 Manuel Farms is a web-based application designed to bridge the gap between farmers and customers
 by providing a convenient marketplace for farm products and livestock.
 
+
 ## 🚀 Live Demo 
-[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://manuelfarms-demo.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://github.com/IB01Manuel/manuelFarm/blob/ef7c482d7830ef9087e341b74695eb36cef3e908/Capture0.png)
 
-[![App Screenshot](./public/images/screenshot.png)](https://manuelfarms-demo.netlify.app)
+[![App Screenshot](https://github.com/IB01Manuel/manuelFarm/blob/888b3c12c0333cf32be5a1ca42604cfb14a03443/Capture0%20-%20Copy%20(5).png)]
 
-➡️ **Try it now:** [https://manuelfarms-demo.netlify.app](https://manuelfarms-demo.netlify.app)
+➡️ **Try it now:** [https://manuelfarm-project.onrender.com](https://manuelfarm-project.onrender.com)
+
 
 **Key Value Propositions:**
 - 🛒 One-stop shop for hard-to-find farm products and livestock
 - 🏡 Home delivery of bulk agricultural products
 - ⏱️ Time-saving solution for busy customers
 - 👨‍🌾 Direct connection between farmers and consumers
+
 
 ### Built With
 **Backend:**
@@ -30,6 +34,7 @@ by providing a convenient marketplace for farm products and livestock.
 **Database:**
 - PostgreSQL
 
+
 ## Features
 **Current Features:**
 - Product search and discovery
@@ -43,6 +48,7 @@ by providing a convenient marketplace for farm products and livestock.
 - User accounts and order history
 - Farmer profiles and inventory management
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -52,15 +58,17 @@ by providing a convenient marketplace for farm products and livestock.
 
 ### Installation
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/yourusername/manuel-farms.git
    cd manuel-farms
 ```
+
 
 2. Install dependencies:
 ```bash
 npm install
 ```
+
 
 3. Set up environment variables:
 Create a `.env` file in the root directory with the following:
@@ -72,18 +80,22 @@ DB_NAME=your_database_name
 DB_PORT=your_database_port
 ```
 
+
 4. Initialize the database:
 ```bash
 npm run db:setup
 ```
+
 
 5. Run the application:
 ```bash
 npm start
 ```
 
+
 6. Open in your browser:
 Visit `http://localhost:3000`
+
 
 ## Project Structure
 
@@ -99,6 +111,7 @@ manuel-farms/
 ├── index.js             # Main application file | Business logic | Application routes
 └── package.json
 ```
+
 
 ## License
 MIT License. See [LICENSE] (LICENSE) for full text
