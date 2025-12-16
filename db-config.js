@@ -10,10 +10,11 @@ const dbConfig = {
   database: process.env.DB_DATABASE,
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT,
-  connectionString: process.env.DATABASE_URL, // Use connectionString for DATABASE_URL
-  ssl: {
-    rejectUnauthorized: false // Needed for Render 
-  }
+  ssl: false // Add this line to disable SSL
+  // connectionString: process.env.DATABASE_URL, // Use connectionString for DATABASE_URL
+  // ssl: {
+  //   rejectUnauthorized: false // Needed for Render 
+  // }
 };
 
 export default dbConfig;
