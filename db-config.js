@@ -1,20 +1,27 @@
 // db.config.js
 import dotenv from "dotenv";
-
-// Load environment variables from .env file
 dotenv.config();
 
-const dbConfig = {
-  user: process.env.DB_USER,
-  host: process.env.DB_HOST,
-  database: process.env.DB_DATABASE,
-  password: process.env.DB_PASSWORD,
-  port: process.env.DB_PORT,
-  ssl: false // Add this line to disable SSL
-  // connectionString: process.env.DATABASE_URL, // Use connectionString for DATABASE_URL
-  // ssl: {
-  //   rejectUnauthorized: false // Needed for Render 
-  // }
+// Determine connection method based on environment
+const getDbConfig = () => {
+  // Production/Render environment
+  if (process.env.DATABASE_URL) {
+    return {
+      connectionString: process.env.DATABASE_URL,
+      ssl: { rejectUnauthorized: false }
+    };
+  }
+  
+  // Local development environment
+  return {
+    user: process.env.DB_USER || 'postgres',
+    host: process.env.DB_HOST || 'localhost',
+    database: process.env.DB_DATABASE || 'manuelFarm',
+    password: process.env.DB_PASSWORD || '',
+    port: parseInt(process.env.DB_PORT) || 5432,
+    ssl: false
+  };
 };
 
+const dbConfig = getDbConfig();
 export default dbConfig;
