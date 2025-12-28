@@ -11,7 +11,7 @@ by providing a convenient marketplace for farm products and livestock.
 
 [![App Screenshot](https://github.com/IB01Manuel/manuelFarm/blob/888b3c12c0333cf32be5a1ca42604cfb14a03443/Capture0%20-%20Copy%20(5).png)]
 
-➡️ **Try it now:** [https://manuelfarm-project.onrender.com](https://manuelfarm-project.onrender.com)
+➡️ **Try it now:** [https://manuelfarm.onrender.com]
 
 
 **Key Value Propositions:**
@@ -37,7 +37,7 @@ by providing a convenient marketplace for farm products and livestock.
 
 ## Features
 **Current Features:**
-- Product search and discovery
+- Product search and discovery(eggs, chicken, fish and pigs for NOW.)
 - Dynamic product display
 - Bulk order capabilities
 - Responsive web design
@@ -94,7 +94,7 @@ npm start
 
 
 6. Open in your browser:
-Visit `http://localhost:3000`
+Visit `http://localhost:3001`
 
 
 ## Project Structure

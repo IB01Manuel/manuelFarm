@@ -10,12 +10,6 @@ const port = process.env.PORT || 3001; // Changed port from 3000 to 3001 for ser
 const db = new pg.Client(dbConfig); 
 db.connect();
 
-// Enhanced CORS configuration
-// app.use(cors({
-//   origin: "http://localhost:3000", // React app URL
-//   credentials: true
-// }));
-
 const allowedOrigins = [
   "http://localhost:3000", // React dev server
   "https://manuel-farms-react-ui.vercel.app", // Vercel domain
